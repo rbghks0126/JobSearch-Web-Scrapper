@@ -58,9 +58,10 @@ def export():
         raise Exception()
       save_to_file(jobs)
       return send_file(
-            filename_or_fp  = f"{word}_{location}_jobs.csv",
+            "jobs.csv",
             mimetype='application/x-csv',
             as_attachment=True,
+            attachment_filename = f"{word}_{location}_jobs.csv"
             cache_timeout=0
             )
     except:
