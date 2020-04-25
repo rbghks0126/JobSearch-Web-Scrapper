@@ -5,6 +5,7 @@ Simple Python Web Scrapper for job searching on multiple sites (indeed, stackove
 
 Lets you save the scrapped jobs as a .csv.
 
+Go to https://repl.it/@GyuHwanHwan/SuperScrapper-using-Flask to run this program straight away.
 
 
 
